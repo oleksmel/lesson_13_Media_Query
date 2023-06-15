@@ -18,11 +18,20 @@ body {
     align-items: center;
 }
 
-@media screen and(max-width: 991px){
+@media screen and (max-width: 991px){
     .header {
         background-color: yellow;
         color: red;
         height: 80px;
         font-size: 42px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .header {
+        background-color: blue;
+        color: #fff;
+        height: 65px;
+        font-size: 36px;
     }
 }
