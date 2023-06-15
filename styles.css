@@ -18,12 +18,40 @@ body {
     align-items: center;
 }
 
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 auto;   
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /*justify-content: space-between;*/
+}
+
+.block {
+    width: 280px;
+    height: 280px;
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
 @media screen and (max-width: 991px){
     .header {
         background-color: yellow;
         color: red;
         height: 80px;
         font-size: 42px;
+    }
+    .block {
+        background-color: aqua;
+        font-size: 80px;
     }
 }
 
